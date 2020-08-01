@@ -1,0 +1,108 @@
+<!-- /*>>>>>>WITTEN BY IFEX<<<<<<*/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="br-preview.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="header-text">Border Radius Previewer</h1>
+
+        <div class="preview-section">
+            <div class="br-preview-box"></div>
+        </div>
+        
+
+        <div class="settings-section">
+            
+
+            <div class="radius-settings">
+                <div class="rs-border">
+                  <input type="text" name="" class="rsb-slider-text" disabled>
+                   <input type="range" id="rsb-slider" class="slider" min="0" max="150" value="0">
+                    <div class="top-left-set1">
+                        <select class="unit-select current-unit-select">
+                            <option value="px">px</option>
+                            <option value="%">%</option>
+                        </select>
+
+
+                    </div>
+                    <div class="top-left-set2">
+                        <select class="unit-select">
+                            <option value="px">px</option>
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+                    <div class="top-right-set1">
+                        <select class="unit-select">
+                            <option value="px">px</option>
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+                    <div class="top-right-set2">
+                        <select class="unit-select">
+                            <option value="px">px</option>
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+                    <div class="bottom-right-set1">
+                        <select class="unit-select">
+                            <option value="px">px</option>
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+                    <div class="bottom-right-set2">
+                        <select class="unit-select">
+                            <option value="px">px</option>
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+                    <div class="bottom-left-set1">
+                        <select class="unit-select">
+                            <option value="px">px</option>
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+                    <div class="bottom-left-set2">
+                        <select class="unit-select">
+                            <option value="px">px</option>
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div class="size-settings">
+                <label for="bpb-width">Width: </label>
+                <input type="text" name="" class="bpb-width-text" disabled>
+                <input type="range" id="bpb-width" min="50" max="700" value="300" class="slider"><br><br>
+                <label for="bpb-height">Height: </label>
+                <input type="text" name="" class="bpb-height-text" disabled>
+                <input type="range" name="" id="bpb-height" min="50" max="350" value="150" class="slider">
+            </div>
+            
+            <div class="display-css">
+            <p class="css-output"> <span class="result-to-preview"><span class="tl2-val">0</span><span class="tl2-unit">px</span> <span class="tr1-val">0</span><span class="tr1-unit">px</span> <span class="br2-val">0</span><span class="br2-unit">px</span> <span class="bl1-val">0</span><span class="bl1-unit">px</span> / <span class="tl1-val">0</span><span class="tl1-unit">px</span> <span class="tr2-val">0</span><span class="tr2-unit">px</span> <span class="br1-val">0</span><span class="br1-unit">px</span> <span class="bl2-val">0</span><span class="bl2-unit">px</span></span>
+<!--            <br>-->
+            <span class="output-to-display-parent"><span class="co-txt">border-radius: </span> <span class="output-to-display">0px</span>;</span>
+            <button class="copy-btn">copy</button></p>
+            <input type="text" class="copy-input" hidden>
+            
+            
+        </div>
+        </div>
+
+    </div>
+    <script src="br-preview.js" defer></script>
+</body>
+
+</html>
