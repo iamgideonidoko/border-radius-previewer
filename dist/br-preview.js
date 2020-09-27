@@ -1,4 +1,4 @@
-/*>>>>>>WITTEN BY IFEX<<<<<<*/
+ /*>>>>>>WITTEN BY IFEX<<<<<<*/
 
 //TO GET ALL THE UNIT SELECTORS
 const tlSet1 = document.querySelector('.top-left-set1 .unit-select');
