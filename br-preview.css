@@ -12,19 +12,29 @@ html {
 
 body {
     font-size: 1.6rem;
-    background-color: rgba(224, 224, 224);
+    /*background-color: rgba(224, 224, 224);*/
     font-family: arial, sans-serif;
+
+}
+
+.container {
+    text-align: center;
 }
 
 .header-text {
 	color: rgba(0, 31, 97);
     text-align: center;
+    margin: 2rem 0 ;
+}
+
+.header-text + p {
+    margin-bottom: 2rem;
 }
 
 .preview-section {
     height: 35rem;
     border: 2px solid rgba(0, 31, 97);
-    margin: 1rem auto;
+    margin: 1rem auto 3rem;
     width: 95%;
     display: flex;
     justify-content: center;
@@ -32,6 +42,17 @@ body {
     overflow: scroll;
     padding 0.5rem;
     max-width: 1200px;
+    resize: both;
+    /*  for other browsers */
+    /*-ms-overflow-style: none;*/
+    /*  for firefox */  
+    /*scrollbar-width: none; */
+
+}
+
+/*  for chrome */    
+.preview-section::-webkit-scrollbar {
+    /*display: none;*/
 }
 
 .br-preview-box {
@@ -83,7 +104,7 @@ body {
 
 .size-settings {
     text-align: center;
-    margin-top: 1rem;
+    margin: 3rem 0;
 }
 
 .radius-settings {
