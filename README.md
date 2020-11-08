@@ -2,7 +2,7 @@
 
 #### _...previews and generates border radius_
 
-Border radius previewer is a small web application that previews how a border radius of an element would look like and also generate the corresponding CSS code. NO STRESS😎
+Border radius previewer is a small web application that previews how a border radius of an element would look like and also generates the corresponding CSS code. NO STRESS😎
 
 ## Usage
 
