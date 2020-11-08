@@ -409,18 +409,9 @@ copyBtn.onclick = function (e) {
     //get the text to be copied
     copyInput.value = outputToDisplayParent.innerText;
     
-    //select the text to be copied
-    copyInput.select();
-    copyInput.setSelectionRange(0, 99999);
-    
-    //for mobile devices
-    
-    
-    //to copy the text inside the textToCopy
-    document.execCommand('copy');
     
     //alert the copied text
-    alert('Copied: '+copyInput.value);
+    window.prompt("Copy & press Enter", copyInput.value);
     
 }
 
