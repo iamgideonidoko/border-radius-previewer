@@ -47,6 +47,7 @@ body::-webkit-scrollbar {
     max-width: 120rem;
     margin: 0 auto;
     height: 100vh;
+    padding: 0 1.5rem;
     /*padding-bottom: 3rem;*/
 }
 
@@ -130,6 +131,7 @@ body::-webkit-scrollbar {
     background: rgba(195, 42, 70);
     cursor: pointer;
     /*border-radius: 50px;*/
+    border-radius: 0.3rem;
 }
 
 .slider::-moz-range-thumb {
@@ -139,6 +141,7 @@ body::-webkit-scrollbar {
     cursor: pointer;
     border: 0px solid;
     /*border-radius: 50px;*/
+    border-radius: 0.3rem;
 }
 
 .size-settings {

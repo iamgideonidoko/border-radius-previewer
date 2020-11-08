@@ -6,7 +6,7 @@ Border radius previewer is a small web application that previews how a border ra
 
 ## Usage
 
-Visit the [application](https://IGIfeanyichukwu.github.io/border-radius-previewer) and mess around with the sliders, the CSS code will be automagically generated for you.
+Visit the [application](https://https://borderradiuspreviewer.surge.sh) and mess around with the sliders, the CSS code will be automagically generated for you.
 
 
 ## License
