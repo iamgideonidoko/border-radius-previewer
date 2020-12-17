@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IGIfeanyichukwu/border-radius-previewer.git"
+    "url": "git+https://github.com/IamGideonIdoko/border-radius-previewer.git"
   },
-  "author": "I. G Ifeanyichukwu <if3cofr3sh@gmail.com> (Ifex)",
+  "author": "Gideon Idoko <iamgideonidoko@gmail.com>",
   "license": "MIT",
-  "homepage": "https://IGIfeanyichukwu.github.io/border-radius-previewer",
+  "homepage": "https://IamGideonIdoko.github.io/border-radius-previewer",
   "bugs": {
-    "url": "https://github.com/IGIfeanyichukwu/border-radius-previewer/issues"
+    "url": "https://github.com/IamGideonIdoko/border-radius-previewer/issues"
   },
   "dependencies": {
     "gh-pages": "^3.1.0"

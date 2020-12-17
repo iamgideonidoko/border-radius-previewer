@@ -15,12 +15,12 @@ Border Radius Previewer is open source licensed under the MIT license.
 
 ## Contributing
 
-Border Radius Previewer is built with HTML, CSS and vanillaJS. If you happen to find any bug while using this application or you have a features request, do well to [create an issue](https://github.com/IGIfeanyichukwu/border-radius-previewer/issues) on it.
+Border Radius Previewer is built with HTML, CSS and vanillaJS. If you happen to find any bug while using this application or you have a features request, do well to [create an issue](https://github.com/IamGideonIdoko/border-radius-previewer/issues) on it.
 
 #### Clone the repository 
 
 ```bash
-    git clone https://github.com/IGIfeanyichukwu/border-radius-previewer.git
+    git clone https://github.com/IamGideonIdoko/border-radius-previewer.git
 ```
 
 #### Change the directory
@@ -33,8 +33,8 @@ Border Radius Previewer is built with HTML, CSS and vanillaJS. If you happen to 
 Make your contributions or changes to the application src files.
 
 
-[Pull requests](https://github.com/IGIfeanyichukwu/border-radius-previewer/pulls) are highly welcome.
+[Pull requests](https://github.com/IamGideonIdoko/border-radius-previewer/pulls) are highly welcome.
 
 
 ### Author
-[I. G Ifeanyichuwku (Ifex)](https://ig-ifex.netlify.app)
+[Gideon Idoko](https://github.com/IamGideonIdoko)
